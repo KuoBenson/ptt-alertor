@@ -1,5 +1,5 @@
 # building binary
-FROM golang:1.15-alpine as builder
+FROM golang:1.22-alpine as builder
 
 ENV GOPATH /go/
 ENV GO_WORKDIR $GOPATH/src/github.com/Ptt-Alertor/ptt-alertor/
